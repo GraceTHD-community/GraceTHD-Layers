@@ -1,0 +1,44 @@
+﻿GraceTHD-Demo
+
+### Changelog
+
+# GraceTHD-Layers v0.02
+- Renommage du projet qgis (outch c'est long O_o) : gracethd-layers-v0.02_gracethd-mcd-v2.0_qgis2.12.3_spatialite.qgs
+- Ajout de la relation ps_ti_code-ti_code
+- sql_postgis\gracethd_61_vues_elem.sql : vs_elem_cb_nd - correction bug. 
+- Création de gracethd-layers-v0.02_gracethd-mcd-v2.0_qgis2.12.3_postgis.qgs (source : Région Grand-Est)
+	- Chaine dans le .qgs à remplacer par les paramètres du serveur de l'utilisateur :
+	<datasource>dbname='gracethd20' port=5433 user='postgres' sslmode=disable
+- Ajout de db\gracethd_pg_dump\gracethd_v2.0-demo01_pg_dump_datas.sql
+- Ajout des SLD	
+
+# GraceTHD-Demo01 - Jeu de données exemple
+- Modification importante de l'arborescence. 
+- Saisie cb_nd1 et cb_nd2
+- Création des vues
+
+# GraceTHD-Layers
+- Couches du groupe GraceTHD-Database : 
+	- Mise à disposition via qgs
+	- Mise à disposition via qlr
+- Couches du groupe GraceTHD-Consult : 
+	- Mise à disposition via qgs
+	- Mise à disposition via qlr
+	- Mise à disposition des symbologies via .qml
+- Relations : 
+	- ps_cs_code-cs_code
+	- ti_ba_code-ba_code
+	- eq_ba_code-ba_code
+	- ba_lt_code-lt_code
+	- lt_st_code-st_code
+	- sf_ad_code-ad_code
+	- cd_code-mq_cd_code
+	- bp_lt_code-lt_code
+	- bp_sf_code-sf_code
+	- bp_pt_code-pt_code-A
+	- bp_pt_code-pt_code-C
+	- bp_pt_code-pt_code-F
+	- bp_pt_code-pt_code-IZ
+	- cc_cd_code-cd_code
+	- em_do_code-do_code
+	
