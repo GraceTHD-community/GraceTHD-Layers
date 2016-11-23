@@ -3,14 +3,15 @@
 ### Changelog
 
 # GraceTHD-Layers v0.02
-- Renommage du projet qgis (outch c'est long O_o) : gracethd-layers-v0.02_gracethd-mcd-v2.0_qgis2.12.3_spatialite.qgs
+- chg: Renommage du projet qgis (outch c'est long O_o) : gracethd-layers-v0.02_gracethd-mcd-v2.0_qgis2.12.3_spatialite.qgs
 - Ajout de la relation ps_ti_code-ti_code
-- sql_postgis\gracethd_61_vues_elem.sql : vs_elem_cb_nd - correction bug. 
-- Création de gracethd-layers-v0.02_gracethd-mcd-v2.0_qgis2.12.3_postgis.qgs (source : Région Grand-Est)
+- fix: sql_postgis\gracethd_61_vues_elem.sql : vs_elem_cb_nd - correction bug. 
+- add: Création de gracethd-layers-v0.02_gracethd-mcd-v2.0_qgis2.12.3_postgis.qgs (source : Région Grand-Est)
 	- Chaine dans le .qgs à remplacer par les paramètres du serveur de l'utilisateur :
 	<datasource>dbname='gracethd20' port=5433 user='postgres' sslmode=disable
-- Ajout de db\gracethd_pg_dump\gracethd_v2.0-demo01_pg_dump_datas.sql
-- Ajout des SLD	
+- add: Ajout de db\gracethd_pg_dump\gracethd_v2.0-demo01_pg_dump_datas.sql
+- add: Ajout des SLD	
+- chg: Création du dossier layers_doc et déplacement de la présentation de la racine à ce dossier. 
 
 # GraceTHD-Demo01 - Jeu de données exemple
 - Modification importante de l'arborescence. 
